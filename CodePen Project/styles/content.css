@@ -1,31 +1,42 @@
-.content > .right-side {
-    text-align: justify;
+.content {
+    display: flex;
+    
 }
+
+.content > .right-side img {
+    padding: 0px 0px 0px 65px;
+    width: 93.5%;
+    height: auto;
+    justify-content: flex-end;
+}
+
+.content > .right-side p{
+    padding-left: 65px;
+
+}
+
+
 
 .top-line {
     color: aliceblue;
     padding-left: 60px;
     font-size: 2.1em;
-    width: 50%;
+}
+
+.top-line i {
+    color: rgb(226, 202, 20);
 }
 
 .bottom-line {
     color: aliceblue;
     padding-left: 60px;
     font-size: 1.8em;
-    width: 50%;
 }
 
 .content > .text {
+    width: 100%;
     padding-top: 30px;
-    display: block;;
-    grid-template-rows: auto;
+    width: 60%;
 }
 
 
-.content > .right-side img {
-    padding: 65px 0px 65px 65px;
-    float: right;
-    width: 50%;
-    height: 50%;
-}

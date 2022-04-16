@@ -12,6 +12,8 @@
     <title>CodePen</title>
     <link rel="stylesheet" href="styles/navbar.css">
     <link rel="stylesheet" href="styles/content.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/helpers.css">
 </head>
 <body>
     <header>
@@ -19,11 +21,13 @@
 
         <nav>
             <ul class="nav-links">
-                <li><a href="">Pens</a></li>
+                <li>
+                    <p>EXPLORE</p>
+                    <a href="">Pens</a></li>
                 <li><a href="">Projects</a></li>
                 <li><a href="">Posts</a></li>
                 <li><a href="">Collections</a></li>
-                <li><a href="">Spark <i class="fa-solid fa-chevron-down"></i></a></li>
+                <li><a style="color: grey;" href="">Spark <i class="fa-solid fa-chevron-down"></i></a></li>
                     <div class="sub-menu">
                         <ul>
                             <li><a href="">Who</a></li>
@@ -44,12 +48,11 @@
         </div>
     </header>
     <div class="content">
-        <div class="right-side">
-            <img src="images/right-image.png" alt="">
-        </div>
+        
         <div class="text">
             <p class="top-line">
                 CodePen is a <b>social development environment</b> for front-end designers and developers.<i class="fa-solid fa-hand-wave"></i>
+                <i class="fa-solid fa-hand"></i>
             </p>
             <p class="bottom-line">
                 Its' the best place to build and deploy a website, show off your work, build test cases, and find inspiration.
@@ -57,8 +60,37 @@
             
         </div>
             
+        <div class="right-side">
+            <p>
+                <b style="color: white;">This is </b>
+                <b style="color: aqua;">CodePen Projects</b>
+                <b style="color: white;">!</b>
+            </p>
+            <img src="images/right-image.png" alt="">
+        </div>
+        
         
     </div>
     
+    <div class="footer-wrapper">
+        <div class="footer-items">
+            <p>CodePen for <b>TEAMS</b></p>
+        </div>
+        <div class="footer-items">
+            <p>CodePen for <b>EDUCATION</b></p>
+        </div>
+        <div class="footer-items">
+            <p>CodePen for <b>PRIVACY</b></p>
+        </div>
+        <div class="footer-items">
+            <p>CodePen for <b>WRITING</b></p>
+        </div>
+
+
+    </div>
+
+    <div class="spacer60"></div>
+
+
 </body>
 </html>
